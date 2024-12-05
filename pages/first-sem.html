@@ -1,0 +1,404 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мой сайт</title>
+    <link rel="icon" href="../public/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+<header class="py-3">
+    <div class="d-flex justify-content-between align-items-center">
+        <div class="logo">
+            <img src="../public/logo.png" alt="Логотип" class="img-fluid mx-3">
+        </div>
+        <div class="name text-right mx-3">
+            <p>Группа: ЭФБО-01-23</p>
+            <p>Коротких Артем Игоревич</p>
+        </div>
+    </div>
+</header>
+<nav class="navbar navbar-expand-md menu">
+    <div class="dropdown ms-3 d-md-none">
+        <button class="btn btn-secondary dropdown-toggle menu-2" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+            <li><a class="dropdown-item" href="../index.html">Главная</a></li>
+            <li><a class="dropdown-item" href="first-sem.html">Первый семестр</a></li>
+            <li><a class="dropdown-item" href="#">Второй семестр</a></li>
+            <li><a class="dropdown-item" href="services.html">Услуги</a></li>
+            <li><a class="dropdown-item" href="#">Авторизация</a></li>
+        </ul>
+    </div>
+    <div class="container d-none d-md-flex justify-content-between align-items-center">
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item"><a class="nav-link" href="../index.html">Главная</a></li>
+                <li class="nav-item"><a class="nav-link" href="first-sem.html">Первый семестр</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Второй семестр</a></li>
+                <li class="nav-item"><a class="nav-link" href="services.html">Услуги</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Авторизация</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<div class="container-fluid">
+    <div class="row">
+        <nav class="navigation col-md-3">
+            <div class="container-fluid">
+                <h6 class="my-2">Навигация по странице</h6>
+                <ul class="nav flex-column">
+                    <li class="nav-item"><a class="nav-link" href="#lections">Лекции</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#practices">Практики</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#addr">Адрес вуза</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#program">Рабочая программа</a></li>
+                </ul>
+            </div>
+        </nav>
+        <main class="col-md-9">
+            <div class="container-fluid">
+                <p class="concepts" id="lections">Лекции</p>
+                <table class="table table-bordered">
+                    <thead class="thead-light">
+                    <tr>
+                        <th>№</th>
+                        <th>Тема</th>
+                        <th>Отметка о посещении</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Основы языка HTML</td>
+                        <td>
+                            <div class="d-flex justify-content-center form-check">
+                                <input class="form-check-input" type="checkbox" value="">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Углубленное изучение HTML</td>
+                        <td>
+                            <div class="d-flex justify-content-center form-check">
+                            <input class="form-check-input" type="checkbox" value="">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Основы работы в CSS</td>
+                        <td>
+                            <div class="d-flex justify-content-center form-check">
+                                <input class="form-check-input" type="checkbox" value="">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Адаптивная верстка FlexBox и Grid Layout</td>
+                        <td>
+                            <div class="d-flex justify-content-center form-check">
+                                <input class="form-check-input" type="checkbox" value="">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Bootstrap - работа с фреймворком</td>
+                        <td>
+                            <div class="d-flex justify-content-center form-check">
+                                <input class="form-check-input" type="checkbox" value="">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td>Основы языка JavaScript</td>
+                        <td>
+                            <div class="d-flex justify-content-center form-check">
+                                <input class="form-check-input" type="checkbox" value="">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td>Работа с DOM и событиями в JavaScript</td>
+                        <td>
+                            <div class="d-flex justify-content-center form-check">
+                                <input class="form-check-input" type="checkbox" value="">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td>Введение в GitHub и GitHub pages</td>
+                        <td>
+                            <div class="d-flex justify-content-center form-check">
+                                <input class="form-check-input" type="checkbox" value="">
+                            </div>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+
+                <p class="concepts" id="practices">Практики</p>
+                <table class="table table-bordered">
+                    <thead class="thead-light">
+                    <tr>
+                        <th>№</th>
+                        <th>Тема</th>
+                        <th>Отметка о посещении</th>
+                        <th>Отметка о выполнении</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Основы языка HTML</td>
+                        <td>
+                            <div class="d-flex justify-content-center form-check">
+                                <input class="form-check-input" type="checkbox" value="">
+                            </div>
+                        </td>
+                        <td>
+                            <div class="d-flex justify-content-center form-check">
+                                <input class="form-check-input" type="checkbox" value="">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Формы и кнопки в HTML</td>
+                        <td>
+                            <div class="d-flex justify-content-center form-check">
+                                <input class="form-check-input" type="checkbox" value="">
+                            </div>
+                        </td>
+                        <td>
+                            <div class="d-flex justify-content-center form-check">
+                                <input class="form-check-input" type="checkbox" value="">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Таблицы и интерактивные элементы HTML</td>
+                        <td>
+                            <div class="d-flex justify-content-center form-check">
+                                <input class="form-check-input" type="checkbox" value="">
+                            </div>
+                        </td>
+                        <td>
+                            <div class="d-flex justify-content-center form-check">
+                                <input class="form-check-input" type="checkbox" value="">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Основы работы с CSS</td>
+                        <td>
+                            <div class="d-flex justify-content-center form-check">
+                                <input class="form-check-input" type="checkbox" value="">
+                            </div>
+                        </td>
+                        <td>
+                            <div class="d-flex justify-content-center form-check">
+                                <input class="form-check-input" type="checkbox" value="">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Работы с классами в CSS</td>
+                        <td>
+                            <div class="d-flex justify-content-center form-check">
+                                <input class="form-check-input" type="checkbox" value="">
+                            </div>
+                        </td>
+                        <td>
+                            <div class="d-flex justify-content-center form-check">
+                                <input class="form-check-input" type="checkbox" value="">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td>Работа с сетками разметками в HTML</td>
+                        <td>
+                            <div class="d-flex justify-content-center form-check">
+                                <input class="form-check-input" type="checkbox" value="">
+                            </div>
+                        </td>
+                        <td>
+                            <div class="d-flex justify-content-center form-check">
+                                <input class="form-check-input" type="checkbox" value="">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td>Адаптивная верстка</td>
+                        <td>
+                            <div class="d-flex justify-content-center form-check">
+                                <input class="form-check-input" type="checkbox" value="">
+                            </div>
+                        </td>
+                        <td>
+                            <div class="d-flex justify-content-center form-check">
+                                <input class="form-check-input" type="checkbox" value="">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td>Bootstrap</td>
+                        <td>
+                            <div class="d-flex justify-content-center form-check">
+                                <input class="form-check-input" type="checkbox" value="">
+                            </div>
+                        </td>
+                        <td>
+                            <div class="d-flex justify-content-center form-check">
+                                <input class="form-check-input" type="checkbox" value="">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>9</td>
+                        <td>Основы языка JavaScript</td>
+                        <td>
+                            <div class="d-flex justify-content-center form-check">
+                                <input class="form-check-input" type="checkbox" value="">
+                            </div>
+                        </td>
+                        <td>
+                            <div class="d-flex justify-content-center form-check">
+                                <input class="form-check-input" type="checkbox" value="">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>10</td>
+                        <td>Базовые задачи JavaScript</td>
+                        <td>
+                            <div class="d-flex justify-content-center form-check">
+                                <input class="form-check-input" type="checkbox" value="">
+                            </div>
+                        </td>
+                        <td>
+                            <div class="d-flex justify-content-center form-check">
+                                <input class="form-check-input" type="checkbox" value="">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>11</td>
+                        <td>DOM структура приложений и работа с объектами в языке JS</td>
+                        <td>
+                            <div class="d-flex justify-content-center form-check">
+                                <input class="form-check-input" type="checkbox" value="">
+                            </div>
+                        </td>
+                        <td>
+                            <div class="d-flex justify-content-center form-check">
+                                <input class="form-check-input" type="checkbox" value="">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>12</td>
+                        <td>Встраивание скриптов</td>
+                        <td>
+                            <div class="d-flex justify-content-center form-check">
+                                <input class="form-check-input" type="checkbox" value="">
+                            </div>
+                        </td>
+                        <td>
+                            <div class="d-flex justify-content-center form-check">
+                                <input class="form-check-input" type="checkbox" value="">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>13</td>
+                        <td>Отладка сценариев</td>
+                        <td>
+                            <div class="d-flex justify-content-center form-check">
+                                <input class="form-check-input" type="checkbox" value="">
+                            </div>
+                        </td>
+                        <td>
+                            <div class="d-flex justify-content-center form-check">
+                                <input class="form-check-input" type="checkbox" value="">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>14</td>
+                        <td>Анимации и работа с ними</td>
+                        <td>
+                            <div class="d-flex justify-content-center form-check">
+                                <input class="form-check-input" type="checkbox" value="">
+                            </div>
+                        </td>
+                        <td>
+                            <div class="d-flex justify-content-center form-check">
+                                <input class="form-check-input" type="checkbox" value="">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>15</td>
+                        <td>GitHub</td>
+                        <td>
+                            <div class="d-flex justify-content-center form-check">
+                                <input class="form-check-input" type="checkbox" value="">
+                            </div>
+                        </td>
+                        <td>
+                            <div class="d-flex justify-content-center form-check">
+                                <input class="form-check-input" type="checkbox" value="">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>16</td>
+                        <td>Защита проекта</td>
+                        <td>
+                            <div class="d-flex justify-content-center form-check">
+                                <input class="form-check-input" type="checkbox" value="">
+                            </div>
+                        </td>
+                        <td>
+                            <div class="d-flex justify-content-center form-check">
+                                <input class="form-check-input" type="checkbox" value="">
+                            </div>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+
+                <p class="concepts" id="addr">Занятия проходят по адресу п-кт Вернадского 78</p>
+                <iframe class="map" src="https://yandex.ru/map-widget/v1/?ll=37.480363%2C55.669965&mode=search&ol=geo&ouri=ymapsbm1%3A%2F%2Fgeo%3Fdata%3DCgoxNjE2ODgxOTM5EkfQoNC-0YHRgdC40Y8sINCc0L7RgdC60LLQsCwg0L_RgNC-0YHQv9C10LrRgiDQktC10YDQvdCw0LTRgdC60L7Qs9C-LCA3OCIKDePrFUIVC65eQg%2C%2C&z=16.71"></iframe>
+                <p class="concepts" id="program">Рабочая программа</p>
+                <iframe class="PDF-prog" src="../public/ПР_3_HTML_Таблицы%20и%20мультимедиа.pdf"></iframe>
+            </div>
+        </main>
+    </div>
+</div>
+<footer class="bg-dark text-light py-3">
+    <div class="container-fluid d-flex justify-content-between align-items-center">
+        <p class="m-auto">Коротких Артем Игоревич, 2024</p>
+        <div class="tg-image">
+            <a href="#"><img src="../public/tg.png" alt="tg" class="img-fluid"></a>
+        </div>
+    </div>
+</footer>
+<script src="../js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

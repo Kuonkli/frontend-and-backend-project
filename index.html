@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мой сайт</title>
+    <link rel="icon" href="public/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="py-3">
+    <div class="d-flex justify-content-between align-items-center">
+        <div class="logo">
+            <img src="public/logo.png" alt="Логотип" class="img-fluid mx-3">
+        </div>
+        <div class="name text-right mx-3">
+            <p>Группа: ЭФБО-01-23</p>
+            <p>Коротких Артем Игоревич</p>
+        </div>
+    </div>
+</header>
+<nav class="navbar navbar-expand-md menu">
+    <div class="dropdown ms-3 d-md-none">
+        <button class="btn btn-secondary dropdown-toggle menu-2" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+            <li><a class="dropdown-item" href="index.html">Главная</a></li>
+            <li><a class="dropdown-item" href="pages/first-sem.html">Первый семестр</a></li>
+            <li><a class="dropdown-item" href="#">Второй семестр</a></li>
+            <li><a class="dropdown-item" href="pages/services.html">Услуги</a></li>
+            <li><a class="dropdown-item" href="#">Авторизация</a></li>
+        </ul>
+    </div>
+    <div class="container d-none d-md-flex justify-content-between align-items-center">
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html">Главная</a></li>
+                <li class="nav-item"><a class="nav-link" href="pages/first-sem.html">Первый семестр</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Второй семестр</a></li>
+                <li class="nav-item"><a class="nav-link" href="pages/services.html">Услуги</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Авторизация</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<div class="container-fluid">
+    <div class="row">
+        <nav class="navigation col-md-3">
+            <div class="container-fluid">
+                <h6 class="my-2">Навигация по странице</h6>
+                <ul class="nav flex-column">
+                    <li class="nav-item"><a class="nav-link" href="#front">Фронтенд</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#back">Бэкенд</a></li>
+                </ul>
+            </div>
+        </nav>
+        <main class="col-md-9">
+            <div class="container-fluid">
+                <h5 class="hello my-2">Добро пожаловать на мой сайт</h5>
+                <div class="media justify-content-between d-flex align-items-center mb-3">
+                    <div class="media-body me-3">
+                        <p>Меня зовут Коротких Артем Игоревич и я начинающий специалист по веб-разработке.</p>
+                    </div>
+                    <div class="me me-4">
+                        <img src="public/me.png" alt="Я" class="rotate-on-hover">
+                    </div>
+                </div>
+                <div class="accordion accordion-flush" id="accordionFlushExample">
+                    <section id="front">
+                        <div class="accordion-item mb-3">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                    Фронтенд
+                                </button>
+                            </h2>
+                            <div id="flush-collapseOne" class="accordion-collapse collapse">
+                                <div class="accordion-body">
+                                    Фронтенд (или клиентская часть) - это то, что видит пользователь. Он включает в себя все визуальные элементы веб-сайта или приложения: кнопки, формы, изображения и текст. Фронтенд разработчики используют языки разметки и стилизации, такие как html, css и javascript, чтобы создавать интерактивные и привлекательные интерфейсы. Основная задача фронтенда обеспечить удобство использования и эстетическую привлекательность.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <video controls class="embed-responsive-item">
+                                <source src="public/gegagedigedagedago.mp4" type="video/mp4">
+                                Ваш браузер не поддерживает тег video.
+                            </video>
+                        </div>
+                    </section>
+                    <section id="back">
+                        <div class="accordion-item mb-3">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                    Бэкенд
+                                </button>
+                            </h2>
+                            <div id="flush-collapseTwo" class="accordion-collapse collapse">
+                                <div class="accordion-body">
+                                    Бэкенд (или серверная часть) - это "за кулисами" веб-приложения. Он отвечает за обработку данных, управление пользователями и взаимодействие с базами данных. Бэкенд разработчики используют языки программирования, такие как python, ruby, java или php, а также фреймворки и базы данных для создания логики приложения. Основная задача бэкенда - обеспечить стабильную работу приложения и безопасность данных.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <video controls class="embed-responsive-item">
+                                <source src="public/backender.mp4" type="video/mp4">
+                                Ваш браузер не поддерживает тег video.
+                            </video>
+                        </div>
+                    </section>
+                </div>
+
+
+            </div>
+        </main>
+    </div>
+</div>
+<footer class="bg-dark text-light py-3">
+    <div class="container-fluid d-flex justify-content-between align-items-center">
+        <p class="m-auto">Коротких Артем Игоревич, 2024</p>
+        <div class="tg-image">
+            <a href="#"><img src="public/tg.png" alt="tg" class="img-fluid"></a>
+        </div>
+    </div>
+</footer>
+<script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

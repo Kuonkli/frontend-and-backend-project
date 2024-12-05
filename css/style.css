@@ -1,0 +1,199 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.hello {
+    font-size: clamp(22px, 4vw, 30px);
+    font-weight: bold;
+    transition: transform 0.2s ease-in-out;
+}
+
+.hello:hover {
+    transform: scale(1.02);
+}
+
+.logo img {
+    margin: 5%;
+    width: clamp(70px, 7vw, 120px);
+}
+
+header {
+    background-color: #231c24;
+    color: #bbbbbb;
+}
+
+.name p:nth-of-type(1)
+{
+    font-size: clamp(12px, 2vw, 17px);
+    margin-bottom: -3%;
+}
+
+.name p:nth-of-type(2)
+{
+    white-space: nowrap;
+    font-size: clamp(12px, 2vw, 17px);
+    margin-bottom: -3%;
+}
+
+.menu {
+    font-size: clamp(12px, 1.65vw, 17px);
+    background-color: sandybrown;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+
+.menu a {
+    text-decoration: none;
+    margin-right: 2vw;
+    color: black;
+    transition: color 0.2s ease-in-out;
+}
+
+.menu a:hover {
+    color: darkslategray;
+}
+
+.menu a:active {
+    color: #3366cc;
+}
+
+.navigation {
+    font-size: clamp(12px, 1.5vw, 15px);
+    border: 1px solid gray;
+    border-top: none;
+}
+
+main {
+    border: 1px solid gray;
+    border-top: none;
+}
+
+main p {
+    font-size: clamp(12px, 2vw, 17px);
+}
+
+.concepts
+{
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    font-size: clamp(15px, 2.5vw, 20px);
+    font-weight: bold;
+}
+
+.me img{
+    width: clamp(100px, 20vw, 200px);
+}
+
+video {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1vw;
+    width: clamp(150px, 35%, 350px);
+}
+
+footer {
+    border-top: 1px solid gray;
+}
+
+footer p {
+    font-size: clamp(12px, 2vw, 17px);
+    margin: 0;
+}
+
+.tg-image img{
+    width: clamp(25px, 2.5vw, 60px);
+}
+
+.nav-link {
+    color: black;
+    transition: color 0.2s ease-in-out;
+}
+
+.nav-link:hover {
+    color: darkslategray;
+}
+
+.nav-link:active {
+    color: #3366cc;
+}
+
+.menu-2 {
+    background-color: #464a93;
+}
+
+.menu-2:hover,
+.menu-2:focus,
+.menu-2:active,
+.menu-2:after{
+    background-color: #464a93;
+}
+
+iframe {
+    width: 100%;
+    border: 1px solid gray;
+    margin-bottom: 1vw;
+    border-radius: 10px;
+}
+
+.PDF-prog {
+    height: 60vw;
+    margin-bottom: 2vw;
+}
+
+table {
+    font-size: clamp(11px, 2vw, 17px);
+}
+
+.form-check-input {
+    border: 1px solid gray;
+}
+
+.card {
+    max-width: 250px;
+    text-align: center;
+    white-space: collapse;
+    padding: 1vw;
+    border: 1px solid gray;
+    border-radius: 10px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    border: 2px solid gray;
+}
+
+.card-body h6 {
+    font-size: clamp(13px, 1.5vw, 17px);
+}
+
+.card-body button {
+    font-size: clamp(12px, 2vw, 17px);
+    border-radius: 5px;
+    border: 1px solid gray;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.card-body button:hover {
+    background-color: green;
+}
+
+.modal {
+    font-size: clamp(14px, 2vw, 17px);
+    background-color: black;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.rotate-on-hover:hover {
+    animation: rotate 1s linear infinite;
+}
+
+@keyframes rotate {
+      100% {
+          transform: rotate(360deg);
+      }
+  }
+
